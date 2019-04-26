@@ -24,7 +24,7 @@ bar {
 
 
 # -----------------my own stuff-----------------------
-bindsym $mod+Ctrl+l exec i3lock
+bindsym $mod+Ctrl+l exec "i3lock -c 000000"
 # exec --no-startup-id xrandr --out put eDP1 --primary
 exec --no-startup-id ~/.screenlayout/screenlayout.sh
 exec --no-startup-id /usr/bin/blueman-applet                 # Bluetooth Manager
