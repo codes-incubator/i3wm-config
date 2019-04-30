@@ -1,0 +1,53 @@
+[global_config]
+  tab_position = bottom
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 2feafc80-6287-4275-afe3-1f3c70dfcd31
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 3840:18
+      size = 956, 1040
+      title = johnny@johnny-MBP-archlinux: ~/.config/terminator
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 2feafc80-6287-4275-afe3-1f3c70dfcd31
+  [[config]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 2feafc80-6287-4275-afe3-1f3c70dfcd31
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 3840:18
+      size = 956, 1040
+      title = johnny@johnny-MBP-archlinux: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 2feafc80-6287-4275-afe3-1f3c70dfcd31
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#002b36"
+    background_darkness = 0.7
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Consolas 10
+    foreground_color = "#839496"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
