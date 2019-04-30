@@ -1,8 +1,5 @@
 #### Reload it: xrdb ~/.Xresources or xrdb -load ~/.Xresources
 
-##### Original Setting
-URxvt.font: xft:Courier New:pixelsize=11
-
 !-- Xft settings -- !
 Xft.dpi:        96
 Xft.antialias:  true
@@ -26,9 +23,6 @@ Xft.hintstyle:  hintslight
 ! URxvt.italicFont: xft:Droid Sans Mono:pixelsize=11:Italic
 ! URxvt.boldItalicFont: xft:Droid Sans Mono:pixelsize=11:Bold:Italic
 ! URxvt.letterSpace: -1
-
-
-
 
 ##### THIS FILE IS BEING CURRENTLY MANAGED BY URXVTCONFIG #####
 ##### CHANGES DONE TO THIS FILE MANUALLY MAY AFFECT THE FUNCTIONALITY ######
@@ -64,19 +58,23 @@ Xft.hintstyle:  hintslight
 *.color15:     #fdf6e3
 
 URxvt*scrollBar:         false
-URxvt*scrollBar_right:   false
+! URxvt*scrollBar_right:   true
 
+URxvt*transparent:       true
+URxvt*shading:       27
 
-
-
-
-URxvt*transparent:       false
-
-URxvt*depth: 32
-URxvt.background: [15]#002b36
-
-URxvt.font: xft:Consolas:pixelsize=11
+URxvt.font: xft:Consolas:pixelsize=12
 URxvt.letterSpace: 0
 
-*antialias:  false
-*autohint:   false
+*antialias:  true
+*autohint:   true
+
+! URxvt.perl-ext-common: default,matcher
+! URxvt.url-launcher: Browser?
+! URxvt.matcher.button: 1
+! 
+! URxvt.perl-ext-common: ...,tabbed,...
+! URxvt.tabbed.tabbar-fg: 2
+! URxvt.tabbed.tabbar-bg: 0
+! URxvt.tabbed.tab-fg: 3
+! URxvt.tabbed.tab-bg: 2
