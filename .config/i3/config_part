@@ -33,10 +33,17 @@ bindsym $mod+Ctrl+l exec "i3lock -c 000000"
 
 # exec --no-startup-id xrandr --out put eDP1 --primary
 exec --no-startup-id ~/.screenlayout/screenlayout.sh
+# exec --no-startup-id ~/.screenlayout/screenlayout_single.sh
 exec_always --no-startup-id feh --bg-scale /home/johnny/Pictures/wallpaper/HDFlat/99836.jpg
+
+####### Setting keymapping with Xmodmap ###########
+exec --no-startup-id xmodmap ~/.Xmodmap      # Make Caps Lock a Control keys
+
+####### Setting keymapping with XKB ###########
 # exec --no-startup-id setxkbmap -option 'ctrl:nocaps,shift:both_capslock_cancel'
 # exec --no-startup-id setxkbmap -option ctrl:swapcaps     # Swap Left Control and Caps Lock
-exec --no-startup-id setxkbmap -option ctrl:nocaps      # Make Caps Lock a Control keys
+# exec --no-startup-id setxkbmap -option ctrl:nocaps      # Make Caps Lock a Control keys
+
 # exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec --no-startup-id /usr/bin/blueman-applet                 # Bluetooth Manager
@@ -47,4 +54,3 @@ exec --no-startup-id /usr/bin/nm-applet --sm-disable        # Network Manager
 exec --no-startup-id /usr/bin/xfce4-power-manager           # Power Manager
 #exec --no-startup-id /usr/bin/gnome-power-manager           # Power Manager
 #exec --no-startup-id /usr/bin/gnome-volume-control-applet   # Volume Control
-
