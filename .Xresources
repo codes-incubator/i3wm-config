@@ -3,6 +3,17 @@
 ##### Original Setting
 URxvt.font: xft:Courier New:pixelsize=11
 
+
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
+
+
+
+
 ##### THIS FILE IS BEING CURRENTLY MANAGED BY URXVTCONFIG #####
 ##### CHANGES DONE TO THIS FILE MANUALLY MAY AFFECT THE FUNCTIONALITY ######
 ##### PROCEED WITH CAUTION! #####
@@ -41,12 +52,6 @@ URxvt*scrollBar_right:   false
 
 
 
-!-- Xft settings -- !
-Xft.dpi:        96
-Xft.antialias:  true
-Xft.rgba:       rgb
-Xft.hinting:    true
-Xft.hintstyle:  hintslight
 
 
 URxvt*transparent:       false
