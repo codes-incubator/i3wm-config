@@ -3,13 +3,29 @@
 ##### Original Setting
 URxvt.font: xft:Courier New:pixelsize=11
 
-
 !-- Xft settings -- !
 Xft.dpi:        96
 Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
+
+! Xft ----------------
+! Xft.autohint:  0
+! Xft.lcdfilter: lcddefault
+! Xft.hintstyle: hintfull
+! Xft.hinting:   1
+! Xft.antialias: 1
+! Xft.dpi:       96
+! Xft.rgba:      rgb
+
+! rxvt-unicode -------
+! URxvt.perl-ext-common: default,matcher
+! URxvt.font: xft:Droid Sans Mono:pixelsize=11:Regular
+! URxvt.boldFont: xft:Droid Sans Mono:pixelsize=11:Bold
+! URxvt.italicFont: xft:Droid Sans Mono:pixelsize=11:Italic
+! URxvt.boldItalicFont: xft:Droid Sans Mono:pixelsize=11:Bold:Italic
+! URxvt.letterSpace: -1
 
 
 
