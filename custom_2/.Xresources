@@ -61,9 +61,6 @@ XTerm*selectToClipboard: true
 URxvt.font:			  xft:Consolas:pixelsize=12
 URxvt.letterSpace:		  0
 
-URxvt*scrollBar:		  false
-! URxvt.scrollstyle:		  rxvt
-! URxvt*scrollBar_right:		  true
 URxvt*transparent:		  true
 URxvt*shading:			  27
 
@@ -75,7 +72,9 @@ URxvt*shading:			  27
 URxvt.depth:                      32
 URxvt.background:                 [100]#222D31
 URxvt*scrollBar:                  false
-URxvt*mouseWheelScrollPage:       false
+URxvt*mouseWheelScrollPage:       true
+! URxvt.scrollstyle:		  rxvt
+! URxvt*scrollBar_right:		  true
 URxvt*cursorBlink:                true
 URxvt*background:                 black
 URxvt*foreground:                 grey
