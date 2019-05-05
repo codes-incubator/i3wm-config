@@ -8,7 +8,7 @@
 
 general {
         colors = true
-        interval = 5
+        interval = 1
         color_good = "#2AA198"
         color_bad = "#586E75"
         color_degraded = "#DC322F"
@@ -26,7 +26,7 @@ order += "tztime local"
 # order += "ipv6"
 
 cpu_usage {
-        format = " cpu  %usage "
+        format = " CPU  %usage "
 }
 
 load {
@@ -36,7 +36,7 @@ load {
 
 disk "/" {
         # format = " hdd %avail "
-        format = " ⛁ %avail "
+        format = " DISK %avail "
 }
 
 ethernet _first_ {
@@ -66,5 +66,5 @@ battery all {
 
 tztime local {
         # format = "%Y-%m-%d %H:%M:%S"
-        format = " %d.%m. %H:%M "
+        format = " %d.%m.%Y %H:%M:%S "
 }
