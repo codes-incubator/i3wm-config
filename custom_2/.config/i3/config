@@ -91,5 +91,6 @@ exec --no-startup-id /usr/bin/xfce4-power-manager           # Power Manager
 exec --no-startup-id clipit
 # exec --no-startup-id start_conky_maia
 
-exec --no-startup-id conky ~/.config/conky/conky.con
+# exec --no-startup-id conky -c ~/.config/conky/conky.compton.conf
+exec --no-startup-id conky -c ~/.config/conky/conky.conf
 
