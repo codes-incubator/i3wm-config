@@ -45,6 +45,10 @@ bindsym $mod+d exec dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
+# rofi config (replace dmenu)
+bindsym $mod+Tab exec "rofi -combi-modi window,drun,ssh -theme solarized -show combi"
+
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
@@ -211,6 +215,7 @@ bar {
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 
+
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
   client.focused          #556064 #556064 #80FFF9 #FDF6E3
@@ -247,6 +252,8 @@ exec --no-startup-id ~/.screenlayout/screenlayout.sh
 # exec --no-startup-id ~/.screenlayout/screenlayout_single.sh
 
 exec --no-startup-id compton --config ~/.config/compton/compton.conf -b
+# exec --no-startup-id compton --config ~/.config/compton/compton.conf.bchretien -b
+# exec --no-startup-id compton --config ~/.config/compton/compton.conf.victoriadotdev -b
 
 # exec_always --no-startup-id feh --bg-scale /home/johnny/Pictures/wallpaper/HDFlat/99836.jpg
 exec_always --no-startup-id feh --bg-scale /home/johnny/Pictures/wallpaper/HDFlat/1001.jpg
@@ -276,3 +283,4 @@ exec --no-startup-id clipit
 
 # exec --no-startup-id conky -c ~/.config/conky/conky.conf
 exec --no-startup-id conky -c ~/.config/conky/conky.compton.conf
+
