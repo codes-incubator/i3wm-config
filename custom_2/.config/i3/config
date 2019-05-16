@@ -241,7 +241,8 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 
 
 
-bindsym $mod+Ctrl+l exec "i3lock -c 000000"
+bindsym $mod+Ctrl+l exec --no-startup-id "blurlock"
+# bindsym $mod+Ctrl+l exec "i3lock -c 000000"
 # bindsym $mod+Shift+greater move container to output right
 # bindsym $mod+Shift+less move container to output left
 
