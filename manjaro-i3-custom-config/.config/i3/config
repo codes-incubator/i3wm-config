@@ -523,16 +523,6 @@ exec --no-startup-id fcitx                                  # Input method
 # exec_always --no-startup-id fcitx
 
 
-# Display settings
-# exec --no-startup-id xrandr --out put eDP1 --primary
-exec --no-startup-id ~/.screenlayout/screenlayout.sh
-# exec --no-startup-id ~/.screenlayout/screenlayout-single.sh
-
-
-# Wallpaper settings
-exec_always --no-startup-id feh --bg-scale /home/johnny/Pictures/mac-os-sierra-color-splash-purple-do.jpg
-
-
 # Compton settings
 # exec --no-startup-id compton --config ~/.config/compton/compton.conf -b
 # exec --no-startup-id compton --config ~/.config/compton/compton.conf.bchretien -b
@@ -553,6 +543,18 @@ exec --no-startup-id conky -c ~/.config/conky/conky.conf
 # exec --no-startup-id setxkbmap -option 'ctrl:nocaps,shift:both_capslock_cancel'
 # exec --no-startup-id setxkbmap -option ctrl:swapcaps     # Swap Left Control and Caps Lock
 # exec --no-startup-id setxkbmap -option ctrl:nocaps      # Make Caps Lock a Control keys
+
+
+# Display settings
+# exec --no-startup-id xrandr --out put eDP1 --primary
+exec --no-startup-id ~/.screenlayout/screenlayout.sh
+# exec --no-startup-id ~/.screenlayout/screenlayout-single.sh
+
+
+# Wallpaper settings
+exec_always --no-startup-id feh --bg-scale /home/johnny/Pictures/mac-os-sierra-color-splash-purple-do.jpg
+
+
 
 
 
